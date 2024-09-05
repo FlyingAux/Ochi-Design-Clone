@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Components/navbar'
+import Landing from './Components/Landing'
 
 const page = () => {
   return (
-    <div className=''>page</div>
+    <>
+    <Navbar/>
+    <Landing/>
+    </>
   )
 }
 
