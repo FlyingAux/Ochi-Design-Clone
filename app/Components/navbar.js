@@ -10,7 +10,7 @@ const navbar = () => {
             </div>
             <div className='links flex gap-10'>
                 {['Services','Our work','About us','Insights','Contact us'].map((item,index)=>(
-                    <Link href='' key={index} className={`capitalize text-lg font-normal tracking-wide ${index === 4 && "ml-32" }`}>{item}</Link> 
+                    <Link href='' key={index} className={`capitalize text-[1.8vh] font-medium tracking-wide ${index === 4 && "ml-32" }`}>{item}</Link> 
                 ))}
             </div>
         </div>

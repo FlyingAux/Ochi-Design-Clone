@@ -13,8 +13,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'neue-montreal': ['"Neue Montreal"', 'sans-serif'],
+        'neue-montreal': ['"Neue_Montreal"', 'sans-serif'],
         'gilroy': ['Gilroy', 'sans-serif'],
+        'FoundersGrotesk': ['"Test_Founders_Grotesk"', 'sans-serif'],
       },
     },
   },

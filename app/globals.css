@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("/fonts/NeueMontreal-Regular.woff2") format("woff2"),
+         url("/fonts/NeueMontreal-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Regular.woff2") format("woff2"),
+         url("/fonts/Gilroy-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+     font-family: 'FoundersGrotesk';
+     src: url('/fonts/Test_Founders_Grotesk-Regular.woff2') format('woff2'),
+          url('/fonts/Test_Founders_Grotesk-Regular.woff') format('woff'),
+          url('/fonts/Test_Founders_Grotesk-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+
+  .logo{
+     font-family: 'neue montreal';
+  }
+  
