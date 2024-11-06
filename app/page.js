@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/navbar'
 import Landing from './Components/Landing'
 import Marquee from './Components/marquee'
+import About from './Components/About'
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
     <Navbar/>
     <Landing/>
     <Marquee/>
+    <About/>
     </>
   )
 }
